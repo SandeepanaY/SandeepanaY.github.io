@@ -300,15 +300,21 @@ async function renderContact() {
 
 // ── Render: References ──
 async function renderReferences() {
-  const data = await loadJSON('data/references.json');
-  const container = document.getElementById('ref-cards');
-  container.innerHTML = data.map(r => `
-    <div class="ref-card">
-      <div class="ref-name">${r.name}</div>
-      <div class="ref-role">${r.role}</div>
-      <div class="ref-company">${r.company}</div>
-      <div class="ref-phone">📞 ${r.phone}</div>
-    </div>
+  // References removed — now showing social links
+}
+
+async function renderSocial() {
+  const data = await loadJSON('data/social.json');
+  const container = document.getElementById('social-links');
+  if (!container) return;
+  container.innerHTML = data.map(s => `
+    <a class="social-link" href="${s.url}" target="_blank" rel="noopener noreferrer" aria-label="${s.name}">
+      <div class="social-badge">${s.icon}</div>
+      <div>
+        <div class="social-name">${s.name}</div>
+        <div class="social-label">${s.label}</div>
+      </div>
+    </a>
   `).join('');
 }
 
@@ -329,7 +335,7 @@ async function init() {
     renderSkills(),
     renderLanguages(),
     renderContact(),
-    renderReferences(),
+    renderSocial(),
   ]);
 }
 

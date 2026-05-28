@@ -850,6 +850,41 @@ body.light nav { background: rgba(250,248,249,0.8); }
   50% { box-shadow: 0 0 24px rgba(201,96,122,0.8); }
 }
 
+/* ── Social Links ── */
+.social-links { display: flex; flex-direction: column; gap: 14px; margin-top: 8px; }
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 18px 24px;
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+}
+.social-link:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+  transform: translateX(4px);
+}
+.social-badge {
+  width: 44px; height: 44px;
+  border-radius: var(--radius-sm);
+  background: rgba(201,96,122,0.1);
+  border: 1px solid rgba(201,96,122,0.2);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--sakura-soft);
+  flex-shrink: 0;
+  font-family: var(--font-body);
+}
+.social-name { font-size: 0.9rem; color: var(--text-primary); font-weight: 500; margin-bottom: 2px; }
+.social-label { font-size: 0.75rem; color: var(--text-muted); }
+
 /* ── Responsive ── */
 @media (max-width: 900px) {
   .hero-grid, .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 48px; }

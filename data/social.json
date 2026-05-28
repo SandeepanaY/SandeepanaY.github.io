@@ -1,0 +1,20 @@
+[
+    {
+        "name": "LinkedIn",
+        "icon": "in",
+        "url": "https://www.linkedin.com/in/sandeepana-yapa-814a3b369/",
+        "label": "Connect professionally"
+    },
+    {
+        "name": "Instagram",
+        "icon": "ig",
+        "url": "https://www.instagram.com/sandeepana_yapa",
+        "label": "Follow on Instagram"
+    },
+    {
+        "name": "Facebook",
+        "icon": "fb",
+        "url": "https://www.facebook.com/share/1LAiA6zskJ/",
+        "label": "Connect on Facebook"
+    }
+]
