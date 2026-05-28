@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "degree": "Higher National Diploma",
+    "field": "Business Management",
+    "institution": "",
+    "year": "",
+    "type": "diploma",
+    "icon": "🎓",
+    "subjects": []
+  },
+  {
+    "id": 2,
+    "degree": "AAT",
+    "field": "Accounting Technician",
+    "institution": "",
+    "year": "2nd Level",
+    "type": "professional",
+    "icon": "📜",
+    "subjects": []
+  },
+  {
+    "id": 3,
+    "degree": "G.C.E Advanced Level",
+    "field": "Commerce Stream",
+    "institution": "Rathnavali Balika Vidyalaya, Gampaha",
+    "year": "2020",
+    "type": "alevel",
+    "icon": "📚",
+    "subjects": [
+      { "name": "Accounting", "grade": "A" },
+      { "name": "Economics", "grade": "B" },
+      { "name": "Business Studies", "grade": "B" }
+    ]
+  },
+  {
+    "id": 4,
+    "degree": "G.C.E Ordinary Level",
+    "field": "",
+    "institution": "Sri Swarnapali Maha Vidyalaya",
+    "year": "2017",
+    "type": "olevel",
+    "icon": "🏫",
+    "subjects": [
+      { "name": "Mathematics", "grade": "A" },
+      { "name": "Science", "grade": "A" },
+      { "name": "Commerce", "grade": "A" },
+      { "name": "Sinhala", "grade": "A" },
+      { "name": "Buddhism", "grade": "A" },
+      { "name": "History", "grade": "A" },
+      { "name": "Art", "grade": "A" },
+      { "name": "Home Economics", "grade": "B" },
+      { "name": "English", "grade": "C" }
+    ]
+  }
+]

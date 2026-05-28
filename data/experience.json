@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "company": "Nations Trust Bank",
+    "role": "Banking Assistant – Consumer Credit Management",
+    "duration": "2023 – Present",
+    "type": "current",
+    "icon": "🏦",
+    "responsibilities": [
+      "Processed credit card applications, conducted customer and employment verifications, and supported eligibility evaluations",
+      "Processed loan applications and reviewed customer documentation",
+      "Prepared daily operational reports and maintained records",
+      "Provided support and information assistance to branches and customers",
+      "Coordinated with customers and internal teams to complete verification processes"
+    ]
+  },
+  {
+    "id": 2,
+    "company": "Salinda Super",
+    "role": "Accounting Executive",
+    "duration": "2022 – 2023",
+    "type": "past",
+    "icon": "📊",
+    "responsibilities": [
+      "Maintained accounting records and bookkeeping activities",
+      "Performed bank reconciliations, credit card reconciliations and handled banking-related matters",
+      "Assisted with payroll processing activities",
+      "Supported the preparation of final financial statements",
+      "Coordinated with banks and handled external communications",
+      "Assisted in supervising and supporting team activities"
+    ]
+  }
+]

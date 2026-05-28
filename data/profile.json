@@ -1,0 +1,15 @@
+{
+  "name": "Sandeepana Yapa",
+  "title": "Banking & Finance Professional",
+  "tagline": "Detail-Oriented · Accounting · Credit Management",
+  "summary": "Motivated and detail-oriented accounting and banking professional with experience in finance operations, customer service, and account management. Skilled in communication, teamwork, and problem-solving with a strong commitment to accuracy and organizational goals.",
+  "contact": {
+    "phone": "076 429 4262",
+    "email": "sanusandeepana@gmail.com",
+    "address": "238/3 Pahala Yagoda, Ganemulla"
+  },
+  "languages": [
+    { "name": "Sinhala", "level": 100, "label": "Native" },
+    { "name": "English", "level": 75, "label": "Professional" }
+  ]
+}

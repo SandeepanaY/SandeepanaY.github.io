@@ -1,0 +1,7 @@
+[
+  { "name": "Teamwork", "icon": "🤝", "description": "Collaborative spirit, always aligned with team objectives" },
+  { "name": "Time Management", "icon": "⏱", "description": "Disciplined prioritization and deadline adherence" },
+  { "name": "Creativity", "icon": "✨", "description": "Innovative thinking to solve complex challenges" },
+  { "name": "Effective Communication", "icon": "💬", "description": "Clear, concise communication across all levels" },
+  { "name": "Critical Thinking", "icon": "🧠", "description": "Analytical approach to decision-making and problem-solving" }
+]
